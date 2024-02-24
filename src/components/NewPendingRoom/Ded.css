@@ -1,0 +1,134 @@
+.pendingBasicDndBlock {
+    background-color: white;
+    gap: 20px;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+.pendingBasicDndBlock::-webkit-scrollbar {
+    height: 7px;
+}
+
+.pendingBasicDndBlock::-webkit-scrollbar-track {
+    backdrop-filter: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pendingBasicDndBlock::-webkit-scrollbar-thumb {
+    background-color:#042954;
+    border-radius: 3px;
+}
+
+
+.parentBlock {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.columns {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+#addStudentPendingModal {
+    position: relative;
+    width: 800px;
+    max-height: 87vh;
+    border-radius: 6px;
+    background-color: white;
+    padding: 30px;
+}
+
+.contentsPartPending {
+    margin-top: 80px;
+    max-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.contentsPartPending::-webkit-scrollbar {
+    width: 7px;
+}
+
+.contentsPartPending::-webkit-scrollbar-track {
+    backdrop-filter: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contentsPartPending::-webkit-scrollbar-thumb {
+    background-color: rgba(4, 41, 84, 0.8);
+    border-radius: 3px;
+}
+
+
+.inputsPartPending {
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.infoModal{
+    width: 500px;
+    background-color: white;
+    border-radius: 6px;
+    min-height: 400px;
+    padding: 20px;
+    color: #042954;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.infoModal .infoTopPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.infoModal .infoTopPart .imgpart{
+    width: 150px;
+    height: 150px;
+}
+.infoModal .infoTopPart .imgpart img{
+    width: 100%;
+    height: 100%;
+}
+
+.infoModal .informationPart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border: 2px dashed gray;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.infoModal .informationPart div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+.infoModal .informationPart div h4{
+    color: gray;
+}
+.infoModal .informationPart div i{
+    font-size: 7px;
+}
+.infoModal .informationPart div p{
+    font-weight: 600;
+}

@@ -1,0 +1,60 @@
+{
+    "columnsData": {
+        "122087ff-38e5-4156-955d-20778eb76f47": {
+            "order": 1,
+            "name": "So'rovlar",
+            "id": "122087ff-38e5-4156-955d-20778eb76f47",
+            "items": [
+                {
+                    "id": "21e325d4-d0f9-44fc-ab16-9a90af1067f1",
+                    "phone": "+998 (90) 562-93-05",
+                    "lastname": "Turdimatov",
+                    "fristname": "Shavkatbek",
+                    "status": "active",
+                    "updatedAt": "2023-09-23T09:22:06.157Z",
+                    "createdAt": "2023-09-23T09:22:06.157Z"
+                },
+                {
+                    "id": "3e53d9a4-917b-49b3-b172-62f91cb86473",
+                    "phone": "+998 (91) 119-22-39",
+                    "lastname": "Gafurov",
+                    "fristname": "Ozodbek",
+                    "status": "active",
+                    "updatedAt": "2023-09-23T08:32:54.347Z",
+                    "createdAt": "2023-09-23T08:32:54.347Z"
+                }
+            ]
+        },
+        "527f111a-12f6-45f8-abf9-8d0afe0d0cfc": {
+            "order": 2,
+            "name": "Front-end",
+            "id": "527f111a-12f6-45f8-abf9-8d0afe0d0cfc",
+            "items": []
+        }
+    },
+    "defaultData": {
+        "id": "122087ff-38e5-4156-955d-20778eb76f47",
+        "name": "So'rovlar",
+        "items": [
+            {
+                "id": "21e325d4-d0f9-44fc-ab16-9a90af1067f1",
+                "phone": "+998 (90) 562-93-05",
+                "lastname": "Turdimatov",
+                "fristname": "Shavkatbek",
+                "status": "active",
+                "updatedAt": "2023-09-23T09:22:06.157Z",
+                "createdAt": "2023-09-23T09:22:06.157Z"
+            },
+            {
+                "id": "3e53d9a4-917b-49b3-b172-62f91cb86473",
+                "phone": "+998 (91) 119-22-39",
+                "lastname": "Gafurov",
+                "fristname": "Ozodbek",
+                "status": "active",
+                "updatedAt": "2023-09-23T08:32:54.347Z",
+                "createdAt": "2023-09-23T08:32:54.347Z"
+            }
+        ],
+        "order": 1
+    }
+}

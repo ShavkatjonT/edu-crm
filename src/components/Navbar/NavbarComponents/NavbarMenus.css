@@ -1,0 +1,42 @@
+#navbarMenusId{
+    margin: 10px 0px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+}
+#navbarMenusId:hover{
+    background-color: #ECEFFF !important;
+}
+
+.navbarMenusItem{
+    font-weight: 600;
+    width: 100%;
+}
+
+.navbar_menus_item{
+    display: flex;
+    align-items: center;
+}
+
+#navbar_menus_item_icon{
+    font-size: 1.2rem;
+}
+
+.navbarIcons{
+    font-size: 1.3rem;
+}
+.navbar_menus_chevron_right_icon{
+    font-size: 7px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1900px) {
+    #navbarMenusId{
+        height: 55px;
+    }
+    .navbarMenusItem{
+        font-size: 1rem;
+    }
+}

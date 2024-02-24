@@ -1,0 +1,122 @@
+body {
+  background-color: #f2f2f4;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:disabled {
+  cursor: not-allowed !important;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url(/public/Dancing_Script/static/DancingScript-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  src: url(/public/Kaushan_Script/KaushanScript-Regular.ttf);
+  }
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+  outline: none;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-error
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root.Mui-error {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.buy_btn_modal {
+  background-color: #042954 !important;
+}
+.logs_clear_btn {
+  background-color: #042954 !important;
+  padding-top: 5px !important;
+}
+.logs_clear_btn:hover {
+  background-color: #114077 !important;
+}
+.buy_btn_modal:disabled {
+  background-color: #bbbbbb !important;
+  color: #6c6c6c;
+  cursor: not-allowed !important;
+}
+
+.buy_btn_modal:hover {
+  background-color: #114077 !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-error {
+  border-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.css-1bn53lx.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.css-p0rm37.Mui-error {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.css-14lo706 {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.css-yjsfm1 {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.css-u9osun {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.MuiFormHelperText-root {
+  color: #d32f2f !important;
+}
+
+.recharts-cartesian-axis-tick {
+  font-size: 10px;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+  cursor: not-allowed !important;
+}
+
+.css-6lxrli-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  line-height: 23px !important;
+}
+
+.dx-scheduler-header{
+  display: none;
+}
+.ant-picker-input{
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.4375em !important;
+    letter-spacing: 0.00938em !important;
+}
+.ant-picker-input input{
+  font-size: 16px !important;
+}
+.ant-picker-input input::placeholder {
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+}

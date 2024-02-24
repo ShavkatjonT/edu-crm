@@ -1,0 +1,341 @@
+#globalId {
+    position: fixed;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: width 0.2s;
+    margin-bottom: 3rem;
+    z-index: 500;
+}
+
+#containerId {
+    background-color: #fff;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.MuiAutocomplete-endAdornment.css-1q60rmi-MuiAutocomplete-endAdornment {
+    display: none !important;
+}
+
+#content1Id {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+#content1Id .title-hello{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+}
+#content1Id .title-hello h1{
+    font-size: 20px;
+    color: #252525;
+    font-weight: 600;
+}
+#content1Id p{
+    font-size: 14px;
+    color: #4B4B4B;
+    font-weight: 300;
+}
+
+#logoId {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#userIDStyle {
+    display: flex;
+    padding-right: 10px;
+    color: darkgray;
+    gap: 15px;
+}
+
+#userImageID {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.headerSearch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-btn-part{
+    position: relative;
+    border: 1px solid #F0F0F0;
+    border-radius: 76px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.2s ease-in-out;
+}
+
+.input-btn-part input{
+    border: none;
+    height: 40px;
+    padding-left: 15px;
+    background: initial;
+    font-size: 15px;
+}
+.input-btn-part input::placeholder{
+    color: #9f9f9f;
+}
+.input-btn-part button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 76px;
+    background-color: #607AFB;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.input-btn-part button:hover{
+    background-color: #415cdf;
+}
+.input-btn-part button:active{
+    background-color: #3148b8;
+}
+
+.search-result{
+    position: absolute;
+    top: 65px;
+    width: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+
+.search-result.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.search-result.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0px);
+    transition: 0.3s;
+}
+
+.search-result ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-result ul li{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+    color: #252525;
+}
+.search-result ul li:hover{
+   background-color: #f2f2f2;
+}
+
+.addStudent {
+    background-color: initial;
+    width: 40px;
+    font-size: 21px;
+    height: 40px;
+    cursor: pointer;
+    color: #4B4B4B;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DBDBDB;
+    outline: none;
+    border-radius: 50%;
+}
+
+.addStudent:hover {
+    background-color: initial;
+    color: #4B4B4B;
+    border: 1px solid #4B4B4B;
+}
+
+#adminId {
+    color: #a4a4a4;
+    font-weight: 300;
+    display: flex;
+    font-size: small;
+}
+
+#userNameId {
+    display: flex;
+    font-size: 15px;
+    gap: 5px;
+    align-items: start;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+}
+
+#nameId {
+    display: flex;
+    align-items: flex-start;
+    font-size: small;
+    font-weight: 300;
+    margin-top: -8px;
+}
+
+#titleId {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+    gap: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 500;
+    color: #0024C0;
+    text-transform: uppercase;
+}
+
+#text2Id {
+    margin-top: 11px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #a4a4a4;
+    text-transform: capitalize !important;
+}
+
+.user-dropdown{
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+.user-dropdown.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+    transition: 0.3s;
+}
+.user-dropdown.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0px);
+    transition: 0.3s;
+}
+
+.user-dropdown ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.user-dropdown ul li{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 15px;
+    cursor: pointer;
+    color: #585757;
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+.user-dropdown ul li:hover{
+   background-color: #f2f2f2;
+}
+
+@media screen and (min-width: 1900px) {
+    #containerId {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #text2Id {
+        display: none;
+    }
+}
+
+#addStudentModal {
+    position: relative;
+    width: 800px;
+    min-height: 400px;
+    max-height: 87vh;
+    border-radius: 6px;
+    background-color: white;
+    padding: 30px;
+}
+
+.contentsPart {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    height: 60vh;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.contentsPart::-webkit-scrollbar {
+    width: 7px;
+}
+
+.contentsPart::-webkit-scrollbar-track {
+    backdrop-filter: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contentsPart::-webkit-scrollbar-thumb {
+    background-color: rgba(4, 41, 84, 0.8);
+    border-radius: 3px;
+}
+
+.groupsPart {
+    display: flex;
+    gap: 20px;
+}
+
+.inputsPart {
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    gap: 20px;
+    justify-content: center;
+}

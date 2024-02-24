@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(/public/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slideDynamicOrigin-appear-done{
+  top: 152.016px;
+  left: 810px !important;
+}
+
+.dx-scheduler-header-panel-cell, .dx-scheduler-cell-sizes-horizontal{
+  width: 100px !important;
+}

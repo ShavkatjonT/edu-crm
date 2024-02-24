@@ -1,0 +1,190 @@
+#globalId {
+    position: fixed;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: width 0.2s;
+    background-color: rgb(240, 241, 243);
+    margin-bottom: 3rem;
+    z-index: 500;
+}
+
+#containerId {
+    background-color: #fff;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 2px 0px;
+}
+
+.MuiAutocomplete-endAdornment.css-1q60rmi-MuiAutocomplete-endAdornment {
+    display: none !important;
+}
+
+#content1Id {
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+    padding-left: 2%;
+}
+
+#logoId {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#userIDStyle {
+    display: flex;
+    padding-right: 10px;
+    color: darkgray;
+}
+
+#userImageID {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.headerSearch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addStudent {
+    border: none;
+    background-color: initial;
+    width: 2.2rem;
+    font-size: 17px;
+    height: 2.2rem;
+    cursor: pointer;
+    color: #033a6b;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 1.5px solid #033a6b;
+    border-radius: 50%;
+    border: none;
+}
+
+.addStudent:hover {
+    background-color: #033a6b;
+    color: #fff;
+}
+
+#adminId {
+    color: #a4a4a4;
+    font-weight: 300;
+    font-family: [OpenSans];
+    font-size: small;
+}
+
+#userNameId {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    flex-direction: row;
+    font-family: [OpenSans];
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #444444;
+}
+
+#nameId {
+    display: flex;
+    align-items: flex-start;
+    font-size: small;
+    font-weight: 300;
+    margin-top: -8px;
+}
+
+#titleId {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600 !important;
+    gap: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: #0024C0;
+    text-transform: uppercase;
+}
+
+#text2Id {
+    margin-top: 11px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300 !important;
+    color: #a4a4a4;
+    text-transform: capitalize !important;
+}
+
+@media screen and (min-width: 1900px) {
+    #containerId {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #text2Id {
+        display: none;
+    }
+}
+
+#addStudentModal {
+    position: relative;
+    width: 800px;
+    min-height: 400px;
+    max-height: 87vh;
+    border-radius: 6px;
+    background-color: white;
+    padding: 30px;
+}
+
+.contentsPart {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    height: 64vh;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.contentsPart::-webkit-scrollbar {
+    width: 7px;
+}
+
+.contentsPart::-webkit-scrollbar-track {
+    backdrop-filter: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contentsPart::-webkit-scrollbar-thumb {
+    background-color: rgba(4, 41, 84, 0.8);
+    border-radius: 3px;
+}
+
+.groupsPart {
+    display: flex;
+    gap: 20px;
+}
+
+.inputsPart {
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    gap: 20px;
+    justify-content: center;
+}
